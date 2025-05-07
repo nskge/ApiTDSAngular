@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js 'mongodb+srv://sandalo:sandalo123@cluster0.p6xg1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'"
+    "start": "node index.js 'mongodb+srv://sandalo:sandalo123@cluster0.p6xg1.mongodb.net/tarefasDB?retryWrites=true&w=majority&appName=Cluster0'"
   },
   "author": "",
   "license": "ISC",
