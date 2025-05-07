@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js 'mongodb+srv://sandalo:<db_password>@cluster0.p6xg1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.12.1"
+  }
+}
